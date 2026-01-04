@@ -8,19 +8,19 @@ body {
   background-color: #f4f4f4;
   font-family: "Libre Baskerville";
   margin: 0;
-  padding: 0; /* Espaçamento interno */
+  padding: 0;
 }
 main {
   max-width: 800px;
   margin: 0 auto;
 }
 header {
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: #ffffffe5;
   color: #333;
   padding: 20px;
-  border: 1px solid #3333333d; /* Borda */
+  border: 1px solid #3333333d; 
   box-shadow: 5px 5px 15px rgba(50, 50, 50, 0.4);
-  border-radius: 15px; /* Bordas arredondadas */
+  border-radius: 15px; 
 }
 h1 {
   font-family: "Playfair Display", cursive;
@@ -35,7 +35,7 @@ h2 {
   margin-bottom: auto;
   font-size: 25px;
   color: #333;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Sombra */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
   text-align: center !important;
 }
 h3 {
@@ -43,7 +43,7 @@ h3 {
   margin-bottom: auto;
   font-size: 20px;
   color: #333;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); 
   text-align: center;
 }
 p {
@@ -53,7 +53,7 @@ p {
 .text-container {
   border: 1px solid #33333348;
   padding: 20px;
-  margin: 10px; /* Espaçamento externo */
+  margin: 10px; 
   background-color: #ffffffe5;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -71,6 +71,9 @@ p {
   text-decoration: none;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: background-color 0.3s ease;
+}
+.btn:hover {
+  background: #444;
 }
 footer {
   text-align: center;

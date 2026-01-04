@@ -11,12 +11,12 @@ body {
   padding: 0;
 }
 header {
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: #ffffffe5;
   color: #333;
   padding: 20px;
-  border: 1px solid #3333333d;
+  border: 1px solid #3333333d; 
   box-shadow: 5px 5px 15px rgba(50, 50, 50, 0.4);
-  border-radius: 15px;
+  border-radius: 15px; 
 }
 h1 {
   font-family: "Playfair Display", cursive;
@@ -72,4 +72,7 @@ li {
   text-decoration: none;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: background-color 0.3s ease;
+}
+.btn:hover {
+  background: #444;
 }
